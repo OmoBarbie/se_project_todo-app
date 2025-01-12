@@ -1,3 +1,4 @@
+// import { v4 as uuidv4 } from "https://jspm.dev/uuid";
 import { initialTodos, validationConfig } from "../utils/constants.js";
 import Todo from "../components/Todo.js";
 
@@ -18,7 +19,7 @@ const closeModal = (modal) => {
 
 // The logic in this function should all be handled in the Todo class.
 const generateTodo = (data) => {
-  const Todo = new Todo(data, "#todo-template");
+  const todo = new Todo(data, "#todo-template");
   const todoElement = todo.getView();
   return todoElement;
 
