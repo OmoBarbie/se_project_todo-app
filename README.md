@@ -6,7 +6,8 @@
 - Also, create a folder called utils that contains one file: constants.js.
 - In index.html, update the <script> tag for index.js to support JavaScript modules.
 - Deleted its defer attribute and add an appropriate type attribute.
-  Created and set up event listeners method with underscore since it did not need to be called for the checkbox, using the true/false method.
+- Created and set up event listeners method with underscore since it did not need to be called for the checkbox, using the true/false method and also the delete button.
+- Added new ID to new todo items by importing code uuidv4.
 
 ## Functionality
 
