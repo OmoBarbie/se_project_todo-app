@@ -8,6 +8,7 @@
 - Deleted its defer attribute and add an appropriate type attribute.
 - Created and set up event listeners method with underscore since it did not need to be called for the checkbox, using the true/false method and also the delete button.
 - Added new ID to new todo items by importing code uuidv4.
+- Created a new class and constructor for FormValidator wich accepted two parameters. It composes of a public method enableValidation(), which enables form validation.
 
 ## Functionality
 
