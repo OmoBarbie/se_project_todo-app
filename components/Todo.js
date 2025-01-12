@@ -10,8 +10,8 @@ class Todo {
 });
     }
 
-    this._todoCheckboxEl.addEventListener("change", () => {
-      this._data.completed = !this._data.completed;
+ this._todoCheckboxEl.addEventListener("change", () => {
+this._data.completed = !this._data.completed;
     });
 }
 
