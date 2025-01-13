@@ -9,6 +9,7 @@
 - Created and set up event listeners method with underscore since it did not need to be called for the checkbox, using the true/false method and also the delete button.
 - Added new ID to new todo items by importing code uuidv4.
 - Created a new class and constructor for FormValidator wich accepted two parameters. It composes of a public method enableValidation(), which enables form validation.
+- Reset the form controls for after submission.
 
 ## Functionality
 
@@ -18,7 +19,6 @@ Data: an object containing the data for an individual to-do item. You can see th
 selector: a selector string for the corresponding <template> element.
 Generated the todo function in the new class - first step was to get the class to render the items, returning the finished todo elements.
 Todo list can be check and unchecked ringing true or false, can also be deleted.
-Form validotor in place for date.
 
 ## Technology
 
@@ -27,5 +27,6 @@ Create the Todo class. This creates a to-do item with a name (and optionally, a 
 ## Deployment
 
 This project is deployed on GitHub Pages:
+https://github.com/OmoBarbie/se_project_todo-app
 
 -
