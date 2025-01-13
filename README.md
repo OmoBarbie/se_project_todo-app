@@ -18,6 +18,7 @@ Data: an object containing the data for an individual to-do item. You can see th
 selector: a selector string for the corresponding <template> element.
 Generated the todo function in the new class - first step was to get the class to render the items, returning the finished todo elements.
 Todo list can be check and unchecked ringing true or false, can also be deleted.
+Form validotor in place for date.
 
 ## Technology
 
