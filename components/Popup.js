@@ -17,17 +17,16 @@ class Popup {
   }
 
   close() {
-    this._popupElement.classList.remove("popup_visible");
+    this._popup.classList.remove("popup_visible");
     document.removeEventListener("keyup", this._handleEscapeClose);
   }
 
   setEventListeners() {
     // Close button
-    const closeButton = this._popupElement.querySelector(".popup__close");
-    closeButton.addEventListener("click", () => this.close());
+    this._popupcloseBtn.addEventListener("click", () => this.close());
 
     this._popupElement.addEventListener("mousedown", (evt) => {
-      if (evt.target === this._popupElement) {
+      if (evt.target === this._popup) {
         this.close();
       }
     });
