@@ -36,9 +36,11 @@ addTodoPopup.setEventListeners();
 
 const handleDelete = (todo) => {
   todoCounter.updateTotal(false);
+  console.log(todo);
   if (todo.data.completed) {
     todoCounter.updateCompleted(false);
   }
+  // check if the todo that you are deleting was completed, if so you should
 };
 
 // The logic in this function should all be handled in the Todo class.
@@ -63,7 +65,7 @@ const section = new Section({
 section.renderItems();
 
 function handleCheck(completed) {
-  todoCounter.updateCompleted(!completed);
+  todoCounter.updateCompleted(completed);
 }
 
 addTodoButton.addEventListener("click", () => {
